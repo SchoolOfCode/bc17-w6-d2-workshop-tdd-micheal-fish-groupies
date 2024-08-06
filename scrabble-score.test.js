@@ -27,3 +27,9 @@ test('mickeys-fishey-test-c', () => {
 test('mickeys-fishey-test-d', () => {
     expect(calculateScrabbleScore('D')).toBe(2)
 });
+
+
+// // calculateScrabbleScore for word `e`
+// test('mickeys-fishey-test-e', () => {
+//     expect(calculateScrabbleScore('E')).toBe(1)
+// })
