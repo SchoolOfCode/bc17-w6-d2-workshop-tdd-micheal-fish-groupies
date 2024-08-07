@@ -20,16 +20,15 @@ test('mickeys-fishey-test-c', () => {
     expect(calculateScrabbleScore('C')).toBe(3)
 });
 
-// test.each('mickeys-fishey-test-c', () => {
-//     expect(calculateScrabbleScore)
-// })
-
 test('mickeys-fishey-test-d', () => {
     expect(calculateScrabbleScore('D')).toBe(2)
 });
 
+// calculateScrabbleScore for word `e`
+test('mickeys-fishey-test-e', () => {
+    expect(calculateScrabbleScore('E')).toBe(1)
+})
 
-// // calculateScrabbleScore for word `e`
-// test('mickeys-fishey-test-e', () => {
-//     expect(calculateScrabbleScore('E')).toBe(1)
-// })
+test('mickeys-fishey-test-f', () => {
+    expect(calculateScrabbleScore('F')).toBe(4)
+})
